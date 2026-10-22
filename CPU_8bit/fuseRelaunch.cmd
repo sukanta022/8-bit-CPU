@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/ise/CPU_8bit/tb_ripple_adder8_isim_beh.exe" -prj "/home/ise/CPU_8bit/tb_ripple_adder8_beh.prj" "work.tb_ripple_adder8" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/ise/CPU_8bit/tb_alu8_isim_beh.exe" -prj "/home/ise/CPU_8bit/tb_alu8_beh.prj" "work.tb_alu8" "work.glbl" 
