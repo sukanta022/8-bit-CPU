@@ -1,5 +1,5 @@
 ISim log file
-Running: /home/ise/CPU_8bit/tb_full_adder_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/CPU_8bit/tb_full_adder_isim_beh.wdb 
+Running: /home/ise/CPU_8bit/tb_ripple_adder8_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/CPU_8bit/tb_ripple_adder8_isim_beh.wdb 
 ISim P.20131013 (signature 0xfbc00daa)
 ----------------------------------------------------------------------
 INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
@@ -29,16 +29,20 @@ Time resolution is 1 ps
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
-=== Full Adder Testbench ===
+======================================
+     8-BIT RIPPLE ADDER TESTBENCH     
+======================================
 Finished circuit initialization process.
-PASS: a=0 b=0 cin=0 sum=0 cout=0
-PASS: a=0 b=0 cin=1 sum=1 cout=0
-PASS: a=0 b=1 cin=0 sum=1 cout=0
-PASS: a=0 b=1 cin=1 sum=0 cout=1
-PASS: a=1 b=0 cin=0 sum=1 cout=0
-PASS: a=1 b=0 cin=1 sum=0 cout=1
-PASS: a=1 b=1 cin=0 sum=0 cout=1
-PASS: a=1 b=1 cin=1 sum=1 cout=1
-ALL FULL ADDER TESTS PASSED!
-Stopped at time : 80 ns : File "/home/ise/CPU_8bit/tb_full_adder.v" Line 82
+PASS: A=00 B=00 SUM=00
+PASS: A=01 B=01 SUM=02
+PASS: A=0f B=01 SUM=10
+PASS: A=3c B=0f SUM=4b
+PASS: A=55 B=aa SUM=ff
+PASS: A=ff B=01 SUM=00
+PASS: A=aa B=56 SUM=00
+PASS: A=ff B=ff SUM=fe
+======================================
+ALL RIPPLE ADDER TESTS PASSED!
+======================================
+Stopped at time : 80 ns : File "/home/ise/CPU_8bit/tb_ripple_adder8.v" Line 103
 # exit 0

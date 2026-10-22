@@ -48,9 +48,10 @@
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_basic_gates_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_full_adder_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_full_adder_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_full_adder_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_ripple_adder8_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_ripple_adder8_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_ripple_adder8_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
@@ -61,58 +62,56 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1792686424" xil_pn:in_ck="5813251359399737928" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1792686424">
+    <transform xil_pn:end_ts="1792687613" xil_pn:in_ck="1882055439101576939" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1792687613">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="basic_gates.v"/>
       <outfile xil_pn:name="full_adder.v"/>
+      <outfile xil_pn:name="ripple_adder8.v"/>
       <outfile xil_pn:name="tb_basic_gates.v"/>
       <outfile xil_pn:name="tb_full_adder.v"/>
+      <outfile xil_pn:name="tb_ripple_adder8.v"/>
     </transform>
-    <transform xil_pn:end_ts="1792686424" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4766055025819290082" xil_pn:start_ts="1792686424">
+    <transform xil_pn:end_ts="1792687613" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7306304524444583505" xil_pn:start_ts="1792687613">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1792686424" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-8768896172287718948" xil_pn:start_ts="1792686424">
+    <transform xil_pn:end_ts="1792687613" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5211749725885452141" xil_pn:start_ts="1792687613">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1792682958" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-8860499328909878603" xil_pn:start_ts="1792682958">
+    <transform xil_pn:end_ts="1792687613" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-5282229177387604142" xil_pn:start_ts="1792687613">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1792686424" xil_pn:in_ck="5813251359399737928" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1792686424">
+    <transform xil_pn:end_ts="1792687613" xil_pn:in_ck="1882055439101576939" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1792687613">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="basic_gates.v"/>
       <outfile xil_pn:name="full_adder.v"/>
+      <outfile xil_pn:name="ripple_adder8.v"/>
       <outfile xil_pn:name="tb_basic_gates.v"/>
       <outfile xil_pn:name="tb_full_adder.v"/>
+      <outfile xil_pn:name="tb_ripple_adder8.v"/>
     </transform>
-    <transform xil_pn:end_ts="1792686426" xil_pn:in_ck="5813251359399737928" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="1220596860768411387" xil_pn:start_ts="1792686424">
+    <transform xil_pn:end_ts="1792687614" xil_pn:in_ck="1882055439101576939" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3612643651930830883" xil_pn:start_ts="1792687613">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="tb_full_adder_beh.prj"/>
-      <outfile xil_pn:name="tb_full_adder_isim_beh.exe"/>
+      <outfile xil_pn:name="tb_ripple_adder8_beh.prj"/>
+      <outfile xil_pn:name="tb_ripple_adder8_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1792686426" xil_pn:in_ck="5048907375392015727" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="7455257248895816382" xil_pn:start_ts="1792686426">
+    <transform xil_pn:end_ts="1792687614" xil_pn:in_ck="5349090489263974710" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="673077109805482976" xil_pn:start_ts="1792687614">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="tb_full_adder_isim_beh.wdb"/>
+      <outfile xil_pn:name="tb_ripple_adder8_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1792683062" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1792683062">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -145,6 +144,9 @@
     <transform xil_pn:end_ts="1792686660" xil_pn:in_ck="62415752137932911" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="3032082808780546465" xil_pn:start_ts="1792686655">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="full_adder.lso"/>
       <outfile xil_pn:name="full_adder.ngc"/>
