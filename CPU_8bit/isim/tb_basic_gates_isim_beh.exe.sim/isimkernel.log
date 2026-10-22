@@ -2,12 +2,12 @@ Command line:
    tb_basic_gates_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  44362
+     -socket  60949
 
-Thu Oct 22 15:29:24 2026
+Thu Oct 22 16:09:42 2026
 
 
- Elaboration Time: 0.14 sec
+ Elaboration Time: 0.11 sec
 
  Current Memory Usage: 215.241 Meg
 
@@ -21,9 +21,9 @@ Thu Oct 22 15:29:24 2026
  Total Scalar Nets and Variables : 103
 Total Line Count : 33
 
- Total Simulation Time: 0.15 sec
+ Total Simulation Time: 0.12 sec
 
  Current Memory Usage: 292.839 Meg
 
-Thu Oct 22 15:30:46 2026
+Thu Oct 22 16:12:30 2026
 
