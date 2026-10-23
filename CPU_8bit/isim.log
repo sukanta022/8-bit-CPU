@@ -1,5 +1,5 @@
 ISim log file
-Running: /home/ise/CPU_8bit/tb_alu8_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/CPU_8bit/tb_alu8_isim_beh.wdb 
+Running: /home/ise/CPU_8bit/tb_control_unit_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/CPU_8bit/tb_control_unit_isim_beh.wdb 
 ISim P.20131013 (signature 0xfbc00daa)
 ----------------------------------------------------------------------
 INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
@@ -30,23 +30,27 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 ========================================
-         8-BIT ALU TESTBENCH
+        CONTROL UNIT TESTBENCH
 ========================================
 Finished circuit initialization process.
-PASS: OP=1 ACC=00 IMM=55 RESULT=55
-PASS: OP=6 ACC=55 IMM=ff RESULT=aa
-PASS: OP=7 ACC=aa IMM=00 RESULT=55
-PASS: OP=8 ACC=55 IMM=00 RESULT=aa
-PASS: OP=2 ACC=aa IMM=56 RESULT=00
-PASS: OP=6 ACC=00 IMM=81 RESULT=81
-PASS: OP=8 ACC=81 IMM=00 RESULT=02
-PASS: OP=2 ACC=3c IMM=0f RESULT=4b
-PASS: OP=7 ACC=ff IMM=00 RESULT=00
-PASS: OP=8 ACC=80 IMM=00 RESULT=00
-PASS: OP=0 ACC=a5 IMM=ff RESULT=a5
-PASS: OP=3 ACC=5a IMM=01 RESULT=5a
+PASS: OPCODE=0 LOAD=0
+PASS: OPCODE=1 LOAD=1
+PASS: OPCODE=2 LOAD=1
+PASS: OPCODE=3 LOAD=0
+PASS: OPCODE=4 LOAD=0
+PASS: OPCODE=5 LOAD=0
+PASS: OPCODE=6 LOAD=1
+PASS: OPCODE=7 LOAD=1
+PASS: OPCODE=8 LOAD=1
+PASS: OPCODE=9 LOAD=0
+PASS: OPCODE=a LOAD=0
+PASS: OPCODE=b LOAD=0
+PASS: OPCODE=c LOAD=0
+PASS: OPCODE=d LOAD=0
+PASS: OPCODE=e LOAD=0
+PASS: OPCODE=f LOAD=0
 ========================================
-ALL 8-BIT ALU TESTS PASSED!
+ALL CONTROL UNIT TESTS PASSED!
 ========================================
-Stopped at time : 120 ns : File "/home/ise/CPU_8bit/tb_alu8.v" Line 91
+Stopped at time : 160 ns : File "/home/ise/CPU_8bit/tb_control_unit.v" Line 93
 # exit 0
