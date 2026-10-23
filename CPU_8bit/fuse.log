@@ -1,22 +1,22 @@
-Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/ise/CPU_8bit/tb_pc4_isim_beh.exe -prj /home/ise/CPU_8bit/tb_pc4_beh.prj work.tb_pc4 work.glbl 
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/ise/CPU_8bit/tb_program_rom_isim_beh.exe -prj /home/ise/CPU_8bit/tb_program_rom_beh.prj work.tb_program_rom work.glbl 
 ISim P.20131013 (signature 0xfbc00daa)
 Number of CPUs detected in this system: 2
 Turning on mult-threading, number of parallel sub-compilation jobs: 4 
 Determining compilation order of HDL files
-Analyzing Verilog file "/home/ise/CPU_8bit/pc4.v" into library work
-Analyzing Verilog file "/home/ise/CPU_8bit/tb_pc4.v" into library work
+Analyzing Verilog file "/home/ise/CPU_8bit/program_rom.v" into library work
+Analyzing Verilog file "/home/ise/CPU_8bit/tb_program_rom.v" into library work
 Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 94920 KB
-Fuse CPU Usage: 1250 ms
-Compiling module pc4
-Compiling module tb_pc4
+Fuse Memory Usage: 94924 KB
+Fuse CPU Usage: 1320 ms
+Compiling module program_rom
+Compiling module tb_program_rom
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 4 sub-compilation(s) to finish...
+Waiting for 1 sub-compilation(s) to finish...
 Compiled 3 Verilog Units
-Built simulation executable /home/ise/CPU_8bit/tb_pc4_isim_beh.exe
+Built simulation executable /home/ise/CPU_8bit/tb_program_rom_isim_beh.exe
 Fuse Memory Usage: 390924 KB
-Fuse CPU Usage: 1270 ms
-GCC CPU Usage: 210 ms
+Fuse CPU Usage: 1320 ms
+GCC CPU Usage: 190 ms

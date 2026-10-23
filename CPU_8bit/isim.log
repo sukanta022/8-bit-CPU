@@ -1,5 +1,5 @@
 ISim log file
-Running: /home/ise/CPU_8bit/tb_pc4_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/CPU_8bit/tb_pc4_isim_beh.wdb 
+Running: /home/ise/CPU_8bit/tb_program_rom_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/CPU_8bit/tb_program_rom_isim_beh.wdb 
 ISim P.20131013 (signature 0xfbc00daa)
 ----------------------------------------------------------------------
 INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
@@ -30,33 +30,27 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 ========================================
-       4-BIT PC TESTBENCH
+         PROGRAM ROM TESTBENCH
 ========================================
 Finished circuit initialization process.
-PASS: TIME=6000 PC=0
-PASS: TIME=16000 PC=1
-PASS: TIME=26000 PC=2
-PASS: TIME=36000 PC=3
-PASS: TIME=46000 PC=4
-PASS: TIME=56000 PC=5
-PASS: TIME=66000 PC=6
-PASS: TIME=76000 PC=7
-PASS: TIME=86000 PC=8
-PASS: TIME=96000 PC=9
-PASS: TIME=106000 PC=a
-PASS: TIME=116000 PC=b
-PASS: TIME=126000 PC=c
-PASS: TIME=136000 PC=d
-PASS: TIME=146000 PC=e
-PASS: TIME=156000 PC=f
-PASS: TIME=166000 PC=0
-PASS: TIME=171000 PC=0
-PASS: TIME=176000 PC=0
-PASS: TIME=186000 PC=1
-PASS: TIME=191000 PC=1
-PASS: TIME=196000 PC=0
+PASS: ADDR=0 INSTR=155
+PASS: ADDR=1 INSTR=6ff
+PASS: ADDR=2 INSTR=700
+PASS: ADDR=3 INSTR=800
+PASS: ADDR=4 INSTR=256
+PASS: ADDR=5 INSTR=681
+PASS: ADDR=6 INSTR=800
+PASS: ADDR=7 INSTR=000
+PASS: ADDR=8 INSTR=000
+PASS: ADDR=9 INSTR=000
+PASS: ADDR=a INSTR=000
+PASS: ADDR=b INSTR=000
+PASS: ADDR=c INSTR=000
+PASS: ADDR=d INSTR=000
+PASS: ADDR=e INSTR=000
+PASS: ADDR=f INSTR=000
 ========================================
-ALL 4-BIT PC TESTS PASSED!
+ALL PROGRAM ROM TESTS PASSED!
 ========================================
-Stopped at time : 196 ns : File "/home/ise/CPU_8bit/tb_pc4.v" Line 116
+Stopped at time : 160 ns : File "/home/ise/CPU_8bit/tb_program_rom.v" Line 81
 # exit 0
