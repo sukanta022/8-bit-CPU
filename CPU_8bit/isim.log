@@ -1,5 +1,5 @@
 ISim log file
-Running: /home/ise/CPU_8bit/tb_program_rom_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/CPU_8bit/tb_program_rom_isim_beh.wdb 
+Running: /home/ise/CPU_8bit/tb_acc_z_register_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/CPU_8bit/tb_acc_z_register_isim_beh.wdb 
 ISim P.20131013 (signature 0xfbc00daa)
 ----------------------------------------------------------------------
 INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
@@ -30,27 +30,21 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 ========================================
-         PROGRAM ROM TESTBENCH
+      ACC AND Z REGISTER TESTBENCH
 ========================================
 Finished circuit initialization process.
-PASS: ADDR=0 INSTR=155
-PASS: ADDR=1 INSTR=6ff
-PASS: ADDR=2 INSTR=700
-PASS: ADDR=3 INSTR=800
-PASS: ADDR=4 INSTR=256
-PASS: ADDR=5 INSTR=681
-PASS: ADDR=6 INSTR=800
-PASS: ADDR=7 INSTR=000
-PASS: ADDR=8 INSTR=000
-PASS: ADDR=9 INSTR=000
-PASS: ADDR=a INSTR=000
-PASS: ADDR=b INSTR=000
-PASS: ADDR=c INSTR=000
-PASS: ADDR=d INSTR=000
-PASS: ADDR=e INSTR=000
-PASS: ADDR=f INSTR=000
+PASS: TIME=6000 ACC=00 Z=1
+PASS: TIME=16000 ACC=55 Z=0
+PASS: TIME=26000 ACC=55 Z=0
+PASS: TIME=36000 ACC=00 Z=1
+PASS: TIME=46000 ACC=00 Z=1
+PASS: TIME=56000 ACC=aa Z=0
+PASS: TIME=61000 ACC=aa Z=0
+PASS: TIME=66000 ACC=00 Z=1
+PASS: TIME=76000 ACC=00 Z=1
+PASS: TIME=86000 ACC=02 Z=0
 ========================================
-ALL PROGRAM ROM TESTS PASSED!
+ALL ACC AND Z REGISTER TESTS PASSED!
 ========================================
-Stopped at time : 160 ns : File "/home/ise/CPU_8bit/tb_program_rom.v" Line 81
+Stopped at time : 86 ns : File "/home/ise/CPU_8bit/tb_acc_z_register.v" Line 131
 # exit 0

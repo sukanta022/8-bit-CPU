@@ -1,0 +1,29 @@
+Command line:
+   tb_acc_z_register_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  33855
+
+Fri Oct 23 06:04:40 2026
+
+
+ Elaboration Time: 0.13 sec
+
+ Current Memory Usage: 215.245 Meg
+
+ Total Signals          : 19
+ Total Nets             : 33
+ Total Signal Drivers   : 11
+ Total Blocks           : 5
+ Total Primitive Blocks : 4
+ Total Processes        : 15
+ Total Traceable Variables  : 32
+ Total Scalar Nets and Variables : 193
+Total Line Count : 73
+
+ Total Simulation Time: 0.14 sec
+
+ Current Memory Usage: 292.844 Meg
+
+Fri Oct 23 06:06:54 2026
+

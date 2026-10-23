@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/CPU_8bit/acc_z_register.xst" -ofn "/home/ise/CPU_8bit/acc_z_register.syr" 
