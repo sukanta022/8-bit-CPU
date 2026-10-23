@@ -1,0 +1,8 @@
+verilog work "full_adder.v"
+verilog work "ripple_adder8.v"
+verilog work "program_rom.v"
+verilog work "pc4.v"
+verilog work "control_unit.v"
+verilog work "alu8.v"
+verilog work "acc_z_register.v"
+verilog work "cpu_top.v"
