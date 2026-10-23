@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/CPU_8bit/pc4.xst" -ofn "/home/ise/CPU_8bit/pc4.syr" 

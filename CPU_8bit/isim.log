@@ -1,5 +1,5 @@
 ISim log file
-Running: /home/ise/CPU_8bit/tb_control_unit_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/CPU_8bit/tb_control_unit_isim_beh.wdb 
+Running: /home/ise/CPU_8bit/tb_pc4_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/CPU_8bit/tb_pc4_isim_beh.wdb 
 ISim P.20131013 (signature 0xfbc00daa)
 ----------------------------------------------------------------------
 INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
@@ -30,27 +30,33 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 ========================================
-        CONTROL UNIT TESTBENCH
+       4-BIT PC TESTBENCH
 ========================================
 Finished circuit initialization process.
-PASS: OPCODE=0 LOAD=0
-PASS: OPCODE=1 LOAD=1
-PASS: OPCODE=2 LOAD=1
-PASS: OPCODE=3 LOAD=0
-PASS: OPCODE=4 LOAD=0
-PASS: OPCODE=5 LOAD=0
-PASS: OPCODE=6 LOAD=1
-PASS: OPCODE=7 LOAD=1
-PASS: OPCODE=8 LOAD=1
-PASS: OPCODE=9 LOAD=0
-PASS: OPCODE=a LOAD=0
-PASS: OPCODE=b LOAD=0
-PASS: OPCODE=c LOAD=0
-PASS: OPCODE=d LOAD=0
-PASS: OPCODE=e LOAD=0
-PASS: OPCODE=f LOAD=0
+PASS: TIME=6000 PC=0
+PASS: TIME=16000 PC=1
+PASS: TIME=26000 PC=2
+PASS: TIME=36000 PC=3
+PASS: TIME=46000 PC=4
+PASS: TIME=56000 PC=5
+PASS: TIME=66000 PC=6
+PASS: TIME=76000 PC=7
+PASS: TIME=86000 PC=8
+PASS: TIME=96000 PC=9
+PASS: TIME=106000 PC=a
+PASS: TIME=116000 PC=b
+PASS: TIME=126000 PC=c
+PASS: TIME=136000 PC=d
+PASS: TIME=146000 PC=e
+PASS: TIME=156000 PC=f
+PASS: TIME=166000 PC=0
+PASS: TIME=171000 PC=0
+PASS: TIME=176000 PC=0
+PASS: TIME=186000 PC=1
+PASS: TIME=191000 PC=1
+PASS: TIME=196000 PC=0
 ========================================
-ALL CONTROL UNIT TESTS PASSED!
+ALL 4-BIT PC TESTS PASSED!
 ========================================
-Stopped at time : 160 ns : File "/home/ise/CPU_8bit/tb_control_unit.v" Line 93
+Stopped at time : 196 ns : File "/home/ise/CPU_8bit/tb_pc4.v" Line 116
 # exit 0

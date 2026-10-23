@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/ise/CPU_8bit/tb_control_unit_isim_beh.exe" -prj "/home/ise/CPU_8bit/tb_control_unit_beh.prj" "work.tb_control_unit" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/ise/CPU_8bit/tb_pc4_isim_beh.exe" -prj "/home/ise/CPU_8bit/tb_pc4_beh.prj" "work.tb_pc4" "work.glbl" 
